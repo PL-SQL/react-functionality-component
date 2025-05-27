@@ -1,5 +1,11 @@
+import CodeEditor from "@components/CodeEditor";
+
 function Dashboard() {
-  return <div>404</div>;
+  return (
+    <div>
+      <CodeEditor />
+    </div>
+  );
 }
 
 export default Dashboard;

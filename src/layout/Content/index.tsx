@@ -3,7 +3,7 @@ import { Layout } from "antd";
 
 const Header: React.FC = () => {
   return (
-    <Layout.Content>
+    <Layout.Content className="m-12">
       <AppRoutes />
     </Layout.Content>
   );

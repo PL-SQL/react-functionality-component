@@ -18,14 +18,14 @@ export const menuConfig: MenuItem[] = [
   {
     key: "/",
     icon: <PieChartOutlined />,
-    label: "Option 1",
+    label: "首页",
   },
   {
     key: "/drag-and-sort",
     icon: <DesktopOutlined />,
-    label: "Option 2",
+    label: "拖拽排序",
   },
-  { key: "3", icon: <ContainerOutlined />, label: "Option 3" },
+  { key: "/dashboard", icon: <ContainerOutlined />, label: "dashboard" },
   {
     key: "sub1",
     label: "Navigation One",

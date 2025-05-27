@@ -1,4 +1,5 @@
-import NotFoundPage from "@components/common/404";
+import NotFoundPage from "@components/common/NotFoundPage";
+import Dashboard from "@pages/Dashboard";
 import DragAndSorting from "@pages/DragAndSorting";
 import HomePage from "@pages/Home";
 import { Routes, Route } from "react-router-dom";
@@ -17,6 +18,7 @@ const AppRoutes = () => {
       ))} */}
       <Route path={"/"} element={<HomePage />} />
       <Route path={"/drag-and-sort"} element={<DragAndSorting />} />
+      <Route path={"/dashboard"} element={<Dashboard />} />
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );

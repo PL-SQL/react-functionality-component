@@ -12,10 +12,9 @@ const Sider: React.FC = () => {
   };
 
   return (
-    <Layout.Sider>
+    <Layout.Sider className="bg-white" style={{backgroundColor: '#fff'}}>
       <Menu
         onClick={handleClick}
-        theme={"dark"}
         style={{ textAlign: "left" }}
         selectedKeys={[location.pathname]}
         mode="inline"
